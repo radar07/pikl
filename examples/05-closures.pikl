@@ -1,0 +1,9 @@
+fun add_pair(a, b) {
+  return a + b;
+}
+
+fun print_sum(sum) {
+  return sum;
+}
+
+print print_sum(add_pair)(2, 3); // Prints 5

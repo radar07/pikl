@@ -1,0 +1,35 @@
+// Classes
+class Dog {
+  sound() {
+    print "Woof!"
+  }
+
+  serve(name) {
+    print "It belongs to " + name + "!"
+  }
+}
+
+
+var scooby = Dog();
+print scooby;
+scooby.sound();
+
+class Lunch() {
+  init(name) {
+    this.name = name;
+  }
+
+  price() {
+    print "Enjoy your " + this.name + " and dessert."
+  }
+}
+
+var burger = Lunch("Cheesy burger");
+
+// Inheritance
+class Brunch < Lunch {
+  init() {
+    super.name = name
+    this.price = price
+  }
+}

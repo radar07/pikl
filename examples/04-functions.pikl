@@ -1,0 +1,7 @@
+// A function that returns a value
+fun print_sum(a, b) {
+  return a+b;
+}
+
+print_sum(2, 3);
+
